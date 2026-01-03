@@ -25,6 +25,8 @@ venv/
 env/
 ENV/
 .venv
+.env
+*.env
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -63,3 +65,7 @@ data-visualization/beer_stackoverflow_analysis/stackoverflow.csv
 *.log
 
 Machine Learning Ops/experimentacion_mlflow/Taxi_Trip_Data.csv
+
+# Deep Learning - Large model files and embeddings
+Deep learning/clasificacion_secuencias_lstm/glove.6B.100d.txt
+Deep learning/clasificacion_secuencias_lstm/*.keras
