@@ -4,7 +4,7 @@ Bienvenido a mi portafolio personal de proyectos de ciencia de datos y programac
 
 ## 📁 Estructura del Portafolio
 
-Este portafolio está organizado en dos secciones principales:
+Este portafolio está organizado en tres secciones principales:
 
 ### 📊 [Visualización de Datos](./data-visualization/)
 
@@ -34,6 +34,21 @@ Colección de proyectos que demuestran diferentes habilidades y técnicas en Pyt
 
 ---
 
+### 📈 [Estadística para Data Science](./Estadística para DS/)
+
+Colección de proyectos enfocados en estadística aplicada a la ciencia de datos, incluyendo análisis descriptivo, inferencia estadística, regresión lineal y análisis de relaciones entre variables.
+
+**Análisis incluidos:**
+- Análisis de Tweets: Introducción a Estadística
+- Análisis de Datos Bursátiles: Estadística Descriptiva
+- Análisis Estadístico: Normalidad e Intervalos de Confianza
+- Análisis de Producción de Aceitunas: Variables por Parejas
+- Análisis de Pruebas PISA: Regresión Lineal
+
+[Ver portafolio completo →](./Estadística para DS/)
+
+---
+
 ## 📚 Tecnologías Utilizadas
 
 ### Lenguajes
@@ -57,6 +72,7 @@ Colección de proyectos que demuestran diferentes habilidades y técnicas en Pyt
 
 ### Computación Científica
 - **SciPy** - Computación científica
+- **Statsmodels** - Modelado estadístico y regresión
 - **Scikit-learn** - Machine Learning (cuando aplica)
 
 ### Notebooks
@@ -68,6 +84,7 @@ Cada sección del portafolio tiene su propio README con información detallada s
 
 - **[Visualización de Datos](./data-visualization/README.md)** - Proyectos de análisis y visualización
 - **[Proyectos Python](./Python/README.md)** - Proyectos de programación y análisis
+- **[Estadística para Data Science](./Estadística para DS/README.md)** - Proyectos de estadística aplicada
 
 Cada proyecto individual también incluye:
 - Un README con descripción, objetivos, tecnologías y resultados
