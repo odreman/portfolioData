@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYC Taxi Fare Predictor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .prediction-result {
+            display: none;
+            margin-top: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            background-color: #f8f9fa;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">NYC Taxi Fare Predictor</h1>
+        
+        <div class="card">
+            <div class="card-body">
+                <form id="prediction-form">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="pickup_datetime" class="form-label">Fecha y hora de recogida</label>
+                            <input type="datetime-local" class="form-control" id="pickup_datetime" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="passenger_count" class="form-label">Número de pasajeros</label>
+                            <input type="number" class="form-control" id="passenger_count" min="1" max="6" required>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">Punto de recogida</label>
+                            <div class="input-group mb-3">
+                                <input type="number" class="form-control" id="pickup_latitude" placeholder="Latitud" step="0.00001" required>
+                                <input type="number" class="form-control" id="pickup_longitude" placeholder="Longitud" step="0.00001" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">Punto de destino</label>
+                            <div class="input-group mb-3">
+                                <input type="number" class="form-control" id="dropoff_latitude" placeholder="Latitud" step="0.00001" required>
+                                <input type="number" class="form-control" id="dropoff_longitude" placeholder="Longitud" step="0.00001" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Predecir Tarifa</button>
+                </form>
+
+                <div id="prediction-result" class="prediction-result">
+                    <h4>Resultado de la predicción</h4>
+                    <p>Tarifa estimada: <span id="predicted-fare" class="fw-bold"></span></p>
+                    <div id="additional-info">
+                        <p>Distancia del viaje: <span id="trip-distance"></span> millas</p>
+                        <p>Hora del día: <span id="hour"></span></p>
+                        <p>Fin de semana: <span id="is-weekend"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('prediction-form').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const data = {
+                pickup_datetime: document.getElementById('pickup_datetime').value.replace('T', ' '),
+                pickup_latitude: parseFloat(document.getElementById('pickup_latitude').value),
+                pickup_longitude: parseFloat(document.getElementById('pickup_longitude').value),
+                dropoff_latitude: parseFloat(document.getElementById('dropoff_latitude').value),
+                dropoff_longitude: parseFloat(document.getElementById('dropoff_longitude').value),
+                passenger_count: parseInt(document.getElementById('passenger_count').value)
+            };
+
+            try {
+                const response = await fetch('/predict', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(data)
+                });
+
+                const result = await response.json();
+                
+                document.getElementById('predicted-fare').textContent = `$${result.predicted_fare}`;
+                document.getElementById('trip-distance').textContent = result.input_features.trip_distance.toFixed(2);
+                document.getElementById('hour').textContent = result.input_features.hour;
+                document.getElementById('is-weekend').textContent = result.input_features.is_weekend ? 'Sí' : 'No';
+                
+                document.getElementById('prediction-result').style.display = 'block';
+            } catch (error) {
+                alert('Error al realizar la predicción: ' + error.message);
+            }
+        });
+    </script>
+</body>
+</html> 

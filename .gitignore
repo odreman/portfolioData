@@ -62,3 +62,4 @@ data-visualization/beer_stackoverflow_analysis/stackoverflow.csv
 # Logs
 *.log
 
+Machine Learning Ops/experimentacion_mlflow/Taxi_Trip_Data.csv
