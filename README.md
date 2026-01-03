@@ -6,11 +6,11 @@ Bienvenido a mi portafolio personal de proyectos de ciencia de datos y programac
 
 Este portafolio reúne proyectos prácticos que abordan problemas reales utilizando técnicas de ciencia de datos. Cada proyecto incluye análisis detallados, visualizaciones informativas, código bien documentado y explicaciones de los resultados obtenidos.
 
-**Total de proyectos:** 26 proyectos organizados en 6 categorías principales
+**Total de proyectos:** 28 proyectos organizados en 7 categorías principales
 
 ## 📁 Estructura del Portafolio
 
-Este portafolio está organizado en seis secciones principales, cada una enfocada en diferentes aspectos de la ciencia de datos:
+Este portafolio está organizado en siete secciones principales, cada una enfocada en diferentes aspectos de la ciencia de datos:
 
 ---
 
@@ -163,6 +163,31 @@ Colección de 4 proyectos enfocados en análisis predictivo y modelización de s
 
 ---
 
+### 🤖 [Machine Learning](./Machine learning/)
+
+Colección de 2 proyectos enfocados en machine learning y clasificación. Estos proyectos demuestran habilidades en regresión logística, redes neuronales, support vector machines, ensembles, y optimización avanzada de hiperparámetros.
+
+**Habilidades demostradas:**
+- Clasificación binaria y multiclase
+- Regresión logística
+- Redes neuronales (MLP)
+- Support Vector Machines (SVM)
+- Ensembles (Random Forest, XGBoost)
+- Optimización de hiperparámetros con GridSearchCV
+- Feature engineering avanzado
+- Análisis exploratorio de datos
+- Evaluación y comparación de modelos
+
+**Proyectos incluidos:**
+1. **Clasificación de Satisfacción de Pasajeros de Aerolínea** - Proyecto completo con MLP, SVM optimizados, y ensembles, incluyendo feature engineering avanzado y optimización de hiperparámetros
+2. **Predicción de Diabetes con Regresión Logística** - Proyecto introductorio con regresión logística para clasificación binaria
+
+**Tecnologías principales:** Scikit-learn, XGBoost, Pandas, NumPy, Matplotlib, Seaborn, Statsmodels
+
+[Ver portafolio completo →](./Machine learning/)
+
+---
+
 ## 📚 Stack Tecnológico Completo
 
 ### Lenguajes de Programación
@@ -222,6 +247,7 @@ Cada sección tiene su propio README con información detallada:
 - **[Preprocesamiento de Datos](./Data Preprocessing/README.md)** - 6 proyectos de preprocesamiento
 - **[Machine Learning Operations (MLOps)](./Machine Learning Ops/README.md)** - 2 proyectos de MLOps
 - **[Predictive Analytics](./Predictive Analytics/README.md)** - 4 proyectos de análisis predictivo
+- **[Machine Learning](./Machine learning/README.md)** - 2 proyectos de clasificación y machine learning
 
 ### Nivel 3: Proyectos Individuales
 Cada proyecto incluye:
@@ -282,6 +308,16 @@ Cada proyecto incluye:
 - Predicción de ventas y comportamiento de productos
 - Optimización de hiperparámetros
 - Identificación de patrones y tendencias
+
+### Machine Learning
+- Clasificación binaria y multiclase
+- Regresión logística
+- Redes neuronales (MLP)
+- Support Vector Machines (SVM)
+- Ensembles (Random Forest, XGBoost)
+- Optimización de hiperparámetros
+- Feature engineering avanzado
+- Evaluación y comparación de modelos
 
 ## 📝 Características de los Proyectos
 
