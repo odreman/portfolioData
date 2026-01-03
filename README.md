@@ -1,16 +1,16 @@
 # Portafolio de Proyectos de Ciencia de Datos
 
-Bienvenido a mi portafolio personal de proyectos de ciencia de datos y programación. Este repositorio contiene una colección completa de proyectos que demuestran habilidades en análisis de datos, visualización, estadística, preprocesamiento de datos, web scraping, métodos numéricos y programación en Python.
+Bienvenido a mi portafolio personal de proyectos de ciencia de datos y programación. Este repositorio contiene una colección completa de proyectos que demuestran habilidades en análisis de datos, visualización, estadística, preprocesamiento de datos, machine learning operations (MLOps), web scraping, métodos numéricos y programación en Python.
 
 ## 🎯 Sobre este Portafolio
 
 Este portafolio reúne proyectos prácticos que abordan problemas reales utilizando técnicas de ciencia de datos. Cada proyecto incluye análisis detallados, visualizaciones informativas, código bien documentado y explicaciones de los resultados obtenidos.
 
-**Total de proyectos:** 20 proyectos organizados en 4 categorías principales
+**Total de proyectos:** 26 proyectos organizados en 6 categorías principales
 
 ## 📁 Estructura del Portafolio
 
-Este portafolio está organizado en cuatro secciones principales, cada una enfocada en diferentes aspectos de la ciencia de datos:
+Este portafolio está organizado en seis secciones principales, cada una enfocada en diferentes aspectos de la ciencia de datos:
 
 ---
 
@@ -114,6 +114,55 @@ Colección de 6 proyectos enfocados en técnicas fundamentales de preprocesamien
 
 ---
 
+### 🤖 [Machine Learning Operations (MLOps)](./Machine Learning Ops/)
+
+Colección de 2 proyectos enfocados en Machine Learning Operations, demostrando habilidades en experimentación, gestión y despliegue de modelos de machine learning utilizando herramientas profesionales de MLOps como MLflow y FastAPI.
+
+**Habilidades demostradas:**
+- Experimentación sistemática con MLflow
+- Tracking de experimentos y gestión de modelos
+- Comparación y selección de modelos
+- Optimización de hiperparámetros
+- Despliegue de modelos como servicios web
+- Creación de APIs REST para modelos de ML
+- Monitoreo y logging de predicciones
+
+**Proyectos incluidos:**
+1. **Experimentación con MLflow: Predicción de Tarifas de Taxi en NYC** - Entrenamiento y comparación de múltiples algoritmos utilizando MLflow para tracking y gestión
+2. **Despliegue de Modelo como Servicio Web** - Despliegue del modelo entrenado como API REST con FastAPI e interfaz web
+
+**Tecnologías principales:** MLflow, FastAPI, Scikit-learn, XGBoost, Pydantic, Pandas, NumPy
+
+[Ver portafolio completo →](./Machine Learning Ops/)
+
+---
+
+### 📈 [Predictive Analytics](./Predictive Analytics/)
+
+Colección de 4 proyectos enfocados en análisis predictivo y modelización de series temporales. Estos proyectos demuestran habilidades en predicción de ventas, análisis de series temporales, desarrollo de modelos predictivos optimizados y planificación de escenarios futuros.
+
+**Habilidades demostradas:**
+- Análisis y descomposición de series temporales
+- Identificación de estacionalidad y tendencias
+- Previsión y predicción de variables temporales
+- Predicción de ventas y comportamiento de productos
+- Optimización de hiperparámetros
+- Modelado avanzado con Prophet
+- Planificación de escenarios futuros
+- Identificación de patrones y tendencias
+
+**Proyectos incluidos:**
+1. **Análisis de Series Temporales: Chicago** - Análisis de componentes temporales y eliminación de estacionalidad en datos de alquileres de bicicletas
+2. **Predicción de Series Temporales** - Introducción a modelos de previsión de series temporales con datos de ventas
+3. **Predicción de Ventas Retail con Modelos Regresivos** - Desarrollo de múltiples modelos regresivos optimizados para predicción de ventas
+4. **Planificación de Escenarios Retail con Prophet** - Análisis de impacto del confinamiento y pronósticos futuros utilizando Prophet
+
+**Tecnologías principales:** Pandas, NumPy, Scikit-learn, Prophet, Optuna, Matplotlib, Seaborn
+
+[Ver portafolio completo →](./Predictive Analytics/)
+
+---
+
 ## 📚 Stack Tecnológico Completo
 
 ### Lenguajes de Programación
@@ -150,6 +199,12 @@ Colección de 6 proyectos enfocados en técnicas fundamentales de preprocesamien
 - **Faker** - Generación de datos sintéticos
 - **Imbalanced-learn** - Técnicas de balanceo de clases
 
+### Machine Learning Operations
+- **MLflow** - Plataforma de MLOps para tracking y gestión de modelos
+- **FastAPI** - Framework para APIs REST
+- **Pydantic** - Validación de datos
+- **XGBoost** - Gradient boosting avanzado
+
 ### Herramientas de Desarrollo
 - **Jupyter Notebook** - Entorno interactivo de desarrollo y análisis
 - **Git** - Control de versiones
@@ -165,6 +220,8 @@ Cada sección tiene su propio README con información detallada:
 - **[Proyectos Python](./Python/README.md)** - 3 proyectos de programación y análisis
 - **[Estadística para Data Science](./Estadística para DS/README.md)** - 6 análisis estadísticos
 - **[Preprocesamiento de Datos](./Data Preprocessing/README.md)** - 6 proyectos de preprocesamiento
+- **[Machine Learning Operations (MLOps)](./Machine Learning Ops/README.md)** - 2 proyectos de MLOps
+- **[Predictive Analytics](./Predictive Analytics/README.md)** - 4 proyectos de análisis predictivo
 
 ### Nivel 3: Proyectos Individuales
 Cada proyecto incluye:
@@ -210,6 +267,21 @@ Cada proyecto incluye:
 - Preprocesamiento de texto
 - Procesamiento de imágenes
 - Balanceo de clases
+
+### Machine Learning Operations (MLOps)
+- Experimentación con MLflow
+- Tracking de experimentos
+- Gestión del ciclo de vida de modelos
+- Despliegue de modelos como servicios web
+- APIs REST para modelos de ML
+- Monitoreo de predicciones
+
+### Predictive Analytics
+- Análisis y modelización de series temporales
+- Previsión y predicción de variables temporales
+- Predicción de ventas y comportamiento de productos
+- Optimización de hiperparámetros
+- Identificación de patrones y tendencias
 
 ## 📝 Características de los Proyectos
 
