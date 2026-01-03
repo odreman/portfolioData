@@ -38,7 +38,7 @@ Colección de 5 proyectos enfocados en el análisis y visualización de datos ut
 
 ---
 
-### 🐍 [Proyectos Python](Python/README.md)
+### 🐍 [Proyectos Python](python/README.md)
 
 Colección de 3 proyectos que demuestran diferentes habilidades y técnicas en Python, incluyendo análisis de series temporales, web scraping, y métodos numéricos. Estos proyectos muestran competencia en programación, manipulación de datos y resolución de problemas.
 
@@ -56,7 +56,7 @@ Colección de 3 proyectos que demuestran diferentes habilidades y técnicas en P
 
 **Tecnologías principales:** Pandas, NumPy, BeautifulSoup, Selenium, Requests, GeoPandas, Folium, SciPy
 
-[Ver portafolio completo →](Python/README.md)
+[Ver portafolio completo →](python/README.md)
 
 ---
 
@@ -275,7 +275,7 @@ Visión general de todas las secciones y proyectos del portafolio.
 ### Nivel 2: READMEs de Sección
 Cada sección tiene su propio README con información detallada:
 - **[Visualización de Datos](data-visualization/README.md)** - 5 proyectos de análisis y visualización
-- **[Proyectos Python](Python/README.md)** - 3 proyectos de programación y análisis
+- **[Proyectos Python](python/README.md)** - 3 proyectos de programación y análisis
 - **[Estadística para Data Science](Estadística%20para%20DS/README.md)** - 6 análisis estadísticos
 - **[Preprocesamiento de Datos](Data%20Preprocessing/README.md)** - 6 proyectos de preprocesamiento
 - **[Machine Learning Operations (MLOps)](Machine%20Learning%20Ops/README.md)** - 2 proyectos de MLOps
