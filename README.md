@@ -14,7 +14,7 @@ Este portafolio está organizado en ocho secciones principales, cada una enfocad
 
 ---
 
-### 📊 [Visualización de Datos](data-visualization/)
+### 📊 [Visualización de Datos](data-visualization/README.md)
 
 Colección de 5 proyectos enfocados en el análisis y visualización de datos utilizando Python y sus bibliotecas más populares. Estos proyectos demuestran habilidades en exploración de datos, creación de visualizaciones efectivas y comunicación de insights.
 
@@ -34,11 +34,11 @@ Colección de 5 proyectos enfocados en el análisis y visualización de datos ut
 
 **Tecnologías principales:** Pandas, Matplotlib, Seaborn, GeoPandas, Contextily, NumPy
 
-[Ver portafolio completo →](data-visualization/)
+[Ver portafolio completo →](data-visualization/README.md)
 
 ---
 
-### 🐍 [Proyectos Python](Python/)
+### 🐍 [Proyectos Python](Python/README.md)
 
 Colección de 3 proyectos que demuestran diferentes habilidades y técnicas en Python, incluyendo análisis de series temporales, web scraping, y métodos numéricos. Estos proyectos muestran competencia en programación, manipulación de datos y resolución de problemas.
 
@@ -56,11 +56,11 @@ Colección de 3 proyectos que demuestran diferentes habilidades y técnicas en P
 
 **Tecnologías principales:** Pandas, NumPy, BeautifulSoup, Selenium, Requests, GeoPandas, Folium, SciPy
 
-[Ver portafolio completo →](Python/)
+[Ver portafolio completo →](Python/README.md)
 
 ---
 
-### 📈 [Estadística para Data Science](Estadística%20para%20DS/)
+### 📈 [Estadística para Data Science](Estadística%20para%20DS/README.md)
 
 Colección de 6 análisis estadísticos aplicados a la ciencia de datos, cubriendo desde conceptos fundamentales hasta técnicas avanzadas de inferencia y modelado. Estos proyectos demuestran competencia en estadística descriptiva, inferencia estadística, regresión y análisis multivariado.
 
@@ -82,11 +82,11 @@ Colección de 6 análisis estadísticos aplicados a la ciencia de datos, cubrien
 
 **Tecnologías principales:** Pandas, NumPy, SciPy, Statsmodels, Matplotlib, Seaborn, Plotly
 
-[Ver portafolio completo →](Estadística%20para%20DS/)
+[Ver portafolio completo →](Estadística%20para%20DS/README.md)
 
 ---
 
-### 🔧 [Preprocesamiento de Datos](Data%20Preprocessing/)
+### 🔧 [Preprocesamiento de Datos](Data%20Preprocessing/README.md)
 
 Colección de 6 proyectos enfocados en técnicas fundamentales de preprocesamiento de datos, incluyendo limpieza, transformación, anonimización, imputación y preparación de datos para análisis. Estos proyectos demuestran competencia en las etapas iniciales y críticas del pipeline de ciencia de datos.
 
@@ -110,11 +110,11 @@ Colección de 6 proyectos enfocados en técnicas fundamentales de preprocesamien
 
 **Tecnologías principales:** Pandas, NumPy, Scikit-learn, NLTK, Faker, SpaCy, Imbalanced-learn, OpenCV, WordCloud
 
-[Ver portafolio completo →](Data%20Preprocessing/)
+[Ver portafolio completo →](Data%20Preprocessing/README.md)
 
 ---
 
-### 🤖 [Machine Learning Operations (MLOps)](Machine%20Learning%20Ops/)
+### 🤖 [Machine Learning Operations (MLOps)](Machine%20Learning%20Ops/README.md)
 
 Colección de 2 proyectos enfocados en Machine Learning Operations, demostrando habilidades en experimentación, gestión y despliegue de modelos de machine learning utilizando herramientas profesionales de MLOps como MLflow y FastAPI.
 
@@ -133,11 +133,11 @@ Colección de 2 proyectos enfocados en Machine Learning Operations, demostrando 
 
 **Tecnologías principales:** MLflow, FastAPI, Scikit-learn, XGBoost, Pydantic, Pandas, NumPy
 
-[Ver portafolio completo →](Machine%20Learning%20Ops/)
+[Ver portafolio completo →](Machine%20Learning%20Ops/README.md)
 
 ---
 
-### 📈 [Predictive Analytics](Predictive%20Analytics/)
+### 📈 [Predictive Analytics](Predictive%20Analytics/README.md)
 
 Colección de 4 proyectos enfocados en análisis predictivo y modelización de series temporales. Estos proyectos demuestran habilidades en predicción de ventas, análisis de series temporales, desarrollo de modelos predictivos optimizados y planificación de escenarios futuros.
 
@@ -159,11 +159,11 @@ Colección de 4 proyectos enfocados en análisis predictivo y modelización de s
 
 **Tecnologías principales:** Pandas, NumPy, Scikit-learn, Prophet, Optuna, Matplotlib, Seaborn
 
-[Ver portafolio completo →](Predictive%20Analytics/)
+[Ver portafolio completo →](Predictive%20Analytics/README.md)
 
 ---
 
-### 🤖 [Machine Learning](Machine%20learning/)
+### 🤖 [Machine Learning](Machine%20learning/README.md)
 
 Colección de 2 proyectos enfocados en machine learning y clasificación. Estos proyectos demuestran habilidades en regresión logística, redes neuronales, support vector machines, ensembles, y optimización avanzada de hiperparámetros.
 
@@ -184,11 +184,11 @@ Colección de 2 proyectos enfocados en machine learning y clasificación. Estos 
 
 **Tecnologías principales:** Scikit-learn, XGBoost, Pandas, NumPy, Matplotlib, Seaborn, Statsmodels
 
-[Ver portafolio completo →](Machine%20learning/)
+[Ver portafolio completo →](Machine%20learning/README.md)
 
 ---
 
-### 🧠 [Deep Learning](Deep%20learning/)
+### 🧠 [Deep Learning](Deep%20learning/README.md)
 
 Colección de 4 proyectos enfocados en deep learning y redes neuronales profundas. Estos proyectos demuestran habilidades en procesamiento de secuencias con LSTM, clasificación de imágenes con CNN, detección de objetos con YOLO, y redes neuronales densas.
 
@@ -210,7 +210,7 @@ Colección de 4 proyectos enfocados en deep learning y redes neuronales profunda
 
 **Tecnologías principales:** TensorFlow, Keras, PyTorch, LSTM, CNN, YOLO, OpenCV, GloVe, Inception V3, ReduceLROnPlateau, EarlyStopping
 
-[Ver portafolio completo →](Deep%20learning/)
+[Ver portafolio completo →](Deep%20learning/README.md)
 
 ---
 
