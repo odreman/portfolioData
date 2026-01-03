@@ -1,21 +1,38 @@
-# Portafolio de Proyectos
+# Portafolio de Proyectos de Ciencia de Datos
 
-Bienvenido a mi portafolio personal de proyectos de ciencia de datos y programación. Este repositorio contiene una colección de proyectos que demuestran habilidades en análisis de datos, visualización, web scraping, métodos numéricos y programación en Python.
+Bienvenido a mi portafolio personal de proyectos de ciencia de datos y programación. Este repositorio contiene una colección completa de proyectos que demuestran habilidades en análisis de datos, visualización, estadística, preprocesamiento de datos, web scraping, métodos numéricos y programación en Python.
+
+## 🎯 Sobre este Portafolio
+
+Este portafolio reúne proyectos prácticos que abordan problemas reales utilizando técnicas de ciencia de datos. Cada proyecto incluye análisis detallados, visualizaciones informativas, código bien documentado y explicaciones de los resultados obtenidos.
+
+**Total de proyectos:** 20 proyectos organizados en 4 categorías principales
 
 ## 📁 Estructura del Portafolio
 
-Este portafolio está organizado en tres secciones principales:
+Este portafolio está organizado en cuatro secciones principales, cada una enfocada en diferentes aspectos de la ciencia de datos:
+
+---
 
 ### 📊 [Visualización de Datos](./data-visualization/)
 
-Colección de proyectos enfocados en el análisis y visualización de datos utilizando Python y sus bibliotecas más populares. Incluye proyectos sobre análisis de ventas, datos olímpicos, análisis geográficos y más.
+Colección de 5 proyectos enfocados en el análisis y visualización de datos utilizando Python y sus bibliotecas más populares. Estos proyectos demuestran habilidades en exploración de datos, creación de visualizaciones efectivas y comunicación de insights.
+
+**Habilidades demostradas:**
+- Análisis exploratorio de datos (EDA)
+- Creación de visualizaciones informativas y atractivas
+- Análisis de tendencias y patrones
+- Análisis geográfico y espacial
+- Identificación de correlaciones y relaciones entre variables
 
 **Proyectos incluidos:**
-- Análisis de Ventas Minoristas (Vinos y Supermercados)
-- Análisis de Atletas Olímpicos
-- Ajedrez y Estadísticas de Homicidios
-- Cerveza y Análisis de StackOverflow
-- Natalidad y Restaurantes en España
+1. **Análisis de Ventas Minoristas** - Análisis de vinos y datos de supermercados, incluyendo análisis de precios, calidad y tendencias de ventas
+2. **Análisis de Atletas Olímpicos** - Exploración de datos históricos de atletas olímpicos, medallas y récords
+3. **Ajedrez y Estadísticas de Homicidios** - Análisis de la relación entre partidas de ajedrez y estadísticas de homicidios
+4. **Cerveza y Análisis de StackOverflow** - Estudio de correlaciones entre recetas de cerveza y preguntas de programación
+5. **Natalidad y Restaurantes en España** - Análisis geográfico de la relación entre tasas de natalidad y restaurantes con estrellas Michelin
+
+**Tecnologías principales:** Pandas, Matplotlib, Seaborn, GeoPandas, Contextily, NumPy
 
 [Ver portafolio completo →](./data-visualization/)
 
@@ -23,12 +40,21 @@ Colección de proyectos enfocados en el análisis y visualización de datos util
 
 ### 🐍 [Proyectos Python](./Python/)
 
-Colección de proyectos que demuestran diferentes habilidades y técnicas en Python, incluyendo análisis de series temporales, web scraping, y métodos numéricos.
+Colección de 3 proyectos que demuestran diferentes habilidades y técnicas en Python, incluyendo análisis de series temporales, web scraping, y métodos numéricos. Estos proyectos muestran competencia en programación, manipulación de datos y resolución de problemas.
+
+**Habilidades demostradas:**
+- Análisis de series temporales
+- Web scraping y extracción de datos
+- Implementación de algoritmos numéricos
+- Optimización y vectorización de código
+- Análisis geoespacial y creación de mapas interactivos
 
 **Proyectos incluidos:**
-- Análisis de Series Temporales: Impacto de Madrid Central en la Calidad del Aire
-- Web Scraping: Extracción de Datos de Librería Online
-- Integración Numérica con el Método de Monte Carlo
+1. **Análisis de Series Temporales: Impacto de Madrid Central** - Análisis del impacto de políticas urbanas en la calidad del aire utilizando técnicas de series temporales
+2. **Web Scraping: Extracción de Datos de Librería Online** - Implementación de técnicas de web scraping con BeautifulSoup y Selenium
+3. **Integración Numérica con el Método de Monte Carlo** - Implementación y comparación de métodos numéricos para cálculo de integrales
+
+**Tecnologías principales:** Pandas, NumPy, BeautifulSoup, Selenium, Requests, GeoPandas, Folium, SciPy
 
 [Ver portafolio completo →](./Python/)
 
@@ -36,72 +62,176 @@ Colección de proyectos que demuestran diferentes habilidades y técnicas en Pyt
 
 ### 📈 [Estadística para Data Science](./Estadística para DS/)
 
-Colección de proyectos enfocados en estadística aplicada a la ciencia de datos, incluyendo análisis descriptivo, inferencia estadística, regresión lineal y análisis de relaciones entre variables.
+Colección de 6 análisis estadísticos aplicados a la ciencia de datos, cubriendo desde conceptos fundamentales hasta técnicas avanzadas de inferencia y modelado. Estos proyectos demuestran competencia en estadística descriptiva, inferencia estadística, regresión y análisis multivariado.
+
+**Habilidades demostradas:**
+- Estadística descriptiva y exploratoria
+- Pruebas de hipótesis y normalidad
+- Construcción de intervalos de confianza
+- Análisis de correlación y regresión lineal
+- Análisis multivariado
+- Integración de datos de múltiples fuentes
 
 **Análisis incluidos:**
-- Análisis de Tweets: Introducción a Estadística
-- Análisis de Datos Bursátiles: Estadística Descriptiva
-- Análisis Estadístico: Normalidad e Intervalos de Confianza
-- Análisis de Producción de Aceitunas: Variables por Parejas
-- Análisis de Pruebas PISA: Regresión Lineal
+1. **Análisis de Tweets: Introducción a Estadística** - Introducción a conceptos fundamentales trabajando con datos de redes sociales
+2. **Análisis de Datos Bursátiles: Estadística Descriptiva** - Análisis de comportamiento financiero del IBEX español
+3. **Análisis Estadístico: Normalidad e Intervalos de Confianza** - Pruebas de normalidad y construcción de intervalos de confianza
+4. **Análisis de Producción de Aceitunas: Variables por Parejas** - Análisis bivariado y multivariado de datos agrícolas
+5. **Análisis de Pruebas PISA: Regresión Lineal** - Modelado predictivo y análisis de relaciones entre variables educativas
+6. **Análisis de la Tienda de Fortnite: Emotes y Bailes** - Análisis complejo con clustering, integración de múltiples fuentes de datos y análisis de popularidad
+
+**Tecnologías principales:** Pandas, NumPy, SciPy, Statsmodels, Matplotlib, Seaborn, Plotly
 
 [Ver portafolio completo →](./Estadística para DS/)
 
 ---
 
-## 📚 Tecnologías Utilizadas
+### 🔧 [Preprocesamiento de Datos](./Data Preprocessing/)
 
-### Lenguajes
-- **Python 3.x**
+Colección de 6 proyectos enfocados en técnicas fundamentales de preprocesamiento de datos, incluyendo limpieza, transformación, anonimización, imputación y preparación de datos para análisis. Estos proyectos demuestran competencia en las etapas iniciales y críticas del pipeline de ciencia de datos.
 
-### Análisis de Datos
-- **Pandas** - Manipulación y análisis de datos
-- **NumPy** - Computación numérica
+**Habilidades demostradas:**
+- Anonimización y protección de datos sensibles
+- Limpieza y transformación de datos
+- Manejo de valores faltantes (imputación)
+- Detección y tratamiento de anomalías
+- Feature engineering y creación de variables
+- Data augmentation
+- Preprocesamiento de texto y procesamiento de lenguaje natural
+- Procesamiento de imágenes
 
-### Visualización
-- **Matplotlib** - Visualización de datos
-- **Seaborn** - Visualizaciones estadísticas
-- **GeoPandas** - Análisis y visualización geoespacial
-- **Folium** - Mapas interactivos
-- **Contextily** - Mapas base
+**Proyectos incluidos:**
+1. **Anonimización de Datos: Airbnb Madrid** - Aplicación de técnicas de anonimización y transformación geográfica de datos
+2. **Análisis Exploratorio: Dataset de Airbnb** - Exploración y análisis de datasets complejos
+3. **Imputación de Datos y Detección de Anomalías** - Técnicas de imputación y detección de outliers en datos reales
+4. **Feature Engineering y Data Augmentation** - Creación de variables y técnicas de aumento de datos
+5. **Análisis y Visualización de Texto con WordCloud** - Preprocesamiento de texto y visualización
+6. **Clasificación de Sentimientos en Tweets** - Preprocesamiento avanzado de texto para clasificación
 
-### Web Scraping
-- **BeautifulSoup** - Parsing HTML
-- **Requests** - Peticiones HTTP
-- **Selenium** - Automatización de navegadores
+**Tecnologías principales:** Pandas, NumPy, Scikit-learn, NLTK, Faker, SpaCy, Imbalanced-learn, OpenCV, WordCloud
 
-### Computación Científica
-- **SciPy** - Computación científica
-- **Statsmodels** - Modelado estadístico y regresión
-- **Scikit-learn** - Machine Learning (cuando aplica)
-
-### Notebooks
-- **Jupyter Notebook** - Entorno interactivo de desarrollo
-
-## 🗂️ Navegación
-
-Cada sección del portafolio tiene su propio README con información detallada sobre los proyectos incluidos:
-
-- **[Visualización de Datos](./data-visualization/README.md)** - Proyectos de análisis y visualización
-- **[Proyectos Python](./Python/README.md)** - Proyectos de programación y análisis
-- **[Estadística para Data Science](./Estadística para DS/README.md)** - Proyectos de estadística aplicada
-
-Cada proyecto individual también incluye:
-- Un README con descripción, objetivos, tecnologías y resultados
-- Un notebook Jupyter con el código y análisis completo
-
-## 📝 Notas
-
-- Todos los proyectos incluyen documentación completa en sus respectivos READMEs
-- Los notebooks están listos para ejecutarse y contienen explicaciones detalladas
-- Cada proyecto es independiente y puede ejecutarse por separado
-- Los datos utilizados en los proyectos están incluidos en sus respectivos directorios
-
-## 📄 Licencia
-
-Este portafolio es de carácter educativo y personal.
+[Ver portafolio completo →](./Data Preprocessing/)
 
 ---
 
-**Última actualización:** 2024
+## 📚 Stack Tecnológico Completo
 
+### Lenguajes de Programación
+- **Python 3.x** - Lenguaje principal para todos los proyectos
+
+### Análisis de Datos
+- **Pandas** - Manipulación y análisis de datos estructurados
+- **NumPy** - Computación numérica y operaciones con arrays
+- **SciPy** - Computación científica y estadística avanzada
+
+### Visualización
+- **Matplotlib** - Visualización de datos básica y avanzada
+- **Seaborn** - Visualizaciones estadísticas y análisis exploratorio
+- **GeoPandas** - Análisis y visualización geoespacial
+- **Folium** - Creación de mapas interactivos
+- **Contextily** - Mapas base para visualizaciones geoespaciales
+- **Plotly** - Visualizaciones interactivas
+
+### Web Scraping
+- **BeautifulSoup** - Parsing y extracción de datos HTML
+- **Requests** - Peticiones HTTP y manejo de APIs
+- **Selenium** - Automatización de navegadores web
+
+### Estadística
+- **Statsmodels** - Modelado estadístico y regresión
+- **SciPy** - Pruebas estadísticas y computación científica
+
+### Procesamiento de Texto e Imágenes
+- **NLTK** - Procesamiento de lenguaje natural
+- **SpaCy** - Procesamiento avanzado de lenguaje natural
+- **WordCloud** - Visualización de texto
+- **OpenCV** - Procesamiento de imágenes
+- **PIL (Pillow)** - Manipulación de imágenes
+- **Faker** - Generación de datos sintéticos
+- **Imbalanced-learn** - Técnicas de balanceo de clases
+
+### Herramientas de Desarrollo
+- **Jupyter Notebook** - Entorno interactivo de desarrollo y análisis
+- **Git** - Control de versiones
+
+## 🗂️ Navegación del Portafolio
+
+### Nivel 1: README Principal (este archivo)
+Visión general de todas las secciones y proyectos del portafolio.
+
+### Nivel 2: READMEs de Sección
+Cada sección tiene su propio README con información detallada:
+- **[Visualización de Datos](./data-visualization/README.md)** - 5 proyectos de análisis y visualización
+- **[Proyectos Python](./Python/README.md)** - 3 proyectos de programación y análisis
+- **[Estadística para Data Science](./Estadística para DS/README.md)** - 6 análisis estadísticos
+- **[Preprocesamiento de Datos](./Data Preprocessing/README.md)** - 6 proyectos de preprocesamiento
+
+### Nivel 3: Proyectos Individuales
+Cada proyecto incluye:
+- **README específico** con descripción detallada, objetivos, tecnologías utilizadas, estructura del proyecto y resultados clave
+- **Notebook Jupyter** con código completo, análisis paso a paso, visualizaciones y explicaciones
+
+## 🎓 Temas y Conceptos Cubiertos
+
+### Análisis de Datos
+- Exploración y limpieza de datos
+- Análisis exploratorio de datos (EDA)
+- Manipulación de datos estructurados y no estructurados
+- Integración de datos de múltiples fuentes
+- Preprocesamiento de datos
+- Anonimización y privacidad de datos
+- Manejo de valores faltantes
+- Detección de anomalías
+
+### Estadística
+- Estadística descriptiva
+- Distribuciones de probabilidad
+- Pruebas de hipótesis y normalidad
+- Intervalos de confianza
+- Análisis de correlación
+- Regresión lineal y múltiple
+- Análisis multivariado
+
+### Visualización
+- Creación de gráficos informativos
+- Visualizaciones estadísticas avanzadas
+- Mapas interactivos y análisis geoespacial
+- Dashboards y visualizaciones interactivas
+
+### Programación
+- Programación en Python
+- Optimización y vectorización
+- Web scraping y automatización
+- Implementación de algoritmos numéricos
+
+### Preprocesamiento
+- Feature engineering
+- Data augmentation
+- Preprocesamiento de texto
+- Procesamiento de imágenes
+- Balanceo de clases
+
+## 📝 Características de los Proyectos
+
+- ✅ **Documentación completa** - Cada proyecto incluye README detallado con objetivos, metodología y resultados
+- ✅ **Código bien comentado** - Notebooks con explicaciones paso a paso
+- ✅ **Listos para ejecutar** - Todos los notebooks pueden ejecutarse de forma independiente
+- ✅ **Datos incluidos o accesibles** - Los datos necesarios están disponibles en los directorios o se cargan desde fuentes públicas
+- ✅ **Visualizaciones profesionales** - Gráficos y visualizaciones de alta calidad
+- ✅ **Análisis rigurosos** - Aplicación de técnicas estadísticas y de ciencia de datos apropiadas
+
+## 🚀 Cómo Usar este Portafolio
+
+1. **Explorar por sección**: Navega a través de las tres secciones principales según tu interés
+2. **Revisar proyectos individuales**: Cada proyecto tiene su propio README con detalles específicos
+3. **Ejecutar notebooks**: Clona el repositorio y ejecuta los notebooks en tu entorno local
+4. **Aprender de los análisis**: Los notebooks contienen explicaciones detalladas de cada paso del análisis
+
+## 📄 Licencia
+
+Este portafolio es de carácter educativo y personal. Todos los proyectos están disponibles para su revisión y aprendizaje.
+
+---
+
+**Repositorio:** [GitHub](https://github.com/odreman/portfolioData)  
+**Última actualización:** 2024

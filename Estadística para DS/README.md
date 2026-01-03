@@ -142,16 +142,11 @@ Bienvenido a mi portafolio de análisis estadísticos aplicados a la ciencia de 
 - **NumPy** - Operaciones numéricas
 - **Scikit-learn** - Clustering (KMeans), preprocesamiento (StandardScaler)
 - **Matplotlib/Seaborn** - Visualización de resultados
-- **TensorFlow/PyTorch** - Procesamiento de datos multimedia (si aplica)
-- **OpenCV** - Procesamiento de imágenes/videos
-- **Transformers** - Procesamiento de audio y reconocimiento
 
 **Temas cubiertos:**
 - Integración de datos de múltiples fuentes (API, scraping)
 - Análisis de popularidad basado en votos de usuarios
 - Clustering de items por características similares
-- Extracción de características de audio/video
-- Reconocimiento de artistas y canciones
 - Análisis de patrones en datos de videojuegos
 - Visualización de relaciones complejas entre variables
 
