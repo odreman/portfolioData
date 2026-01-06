@@ -6,11 +6,11 @@ Bienvenido a mi portafolio personal de proyectos de ciencia de datos y programac
 
 Este portafolio reúne proyectos prácticos que abordan problemas reales utilizando técnicas de ciencia de datos. Cada proyecto incluye análisis detallados, visualizaciones informativas, código bien documentado y explicaciones de los resultados obtenidos.
 
-**Total de proyectos:** 44 proyectos organizados en 10 categorías principales
+**Total de proyectos:** 47 proyectos organizados en 11 categorías principales
 
 ## 📁 Estructura del Portafolio
 
-Este portafolio está organizado en diez secciones principales, cada una enfocada en diferentes aspectos de la ciencia de datos:
+Este portafolio está organizado en once secciones principales, cada una enfocada en diferentes aspectos de la ciencia de datos:
 
 ---
 
@@ -267,6 +267,33 @@ Colección de 5 proyectos enfocados en procesamiento del lenguaje natural, inclu
 
 ---
 
+### 🎨 [IA Generativa](IA-generativa/README.md)
+
+Colección de 3 proyectos enfocados en inteligencia artificial generativa, incluyendo generación de imágenes mediante GANs, ingeniería de prompts para modelos de lenguaje, y generación multimodal de contenido. Estos proyectos demuestran competencia en técnicas avanzadas de IA generativa aplicadas a diferentes modalidades.
+
+**Habilidades demostradas:**
+- Implementación de redes generativas adversarias (GANs)
+- Arquitecturas DCGAN para generación de imágenes
+- Ingeniería de prompts para modelos de lenguaje
+- Generación multimodal (texto, audio, imágenes)
+- Desarrollo de APIs REST para modelos generativos
+- Interfaces web interactivas para IA generativa
+- Traducción automática para modelos multilingües
+
+**Proyectos incluidos:**
+1. **[Generación de Imágenes con DCGAN](IA-generativa/generacion_imagenes_dcgan/README.md)** - Implementación de Deep Convolutional GANs para generar imágenes sintéticas en MNIST y CIFAR-10, incluyendo visualización de la evolución del entrenamiento
+   - [DCGAN para MNIST](IA-generativa/generacion_imagenes_dcgan/dcgan_mnist.ipynb)
+   - [DCGAN para CIFAR-10](IA-generativa/generacion_imagenes_dcgan/dcgan_cifar10.ipynb)
+2. **[Ingeniería de Prompts para LLMs](IA-generativa/ingenieria_prompts_llm/README.md)** - Técnicas avanzadas de optimización de prompts para modelos de lenguaje grandes, incluyendo traducción automática y mejores prácticas
+   - [Ingeniería de Prompts para LLM](IA-generativa/ingenieria_prompts_llm/ingenieria_prompts_llm.ipynb)
+3. **[Generación Multimodal de Contenido](IA-generativa/generacion_multimodal_contenido/generacion_multimodal_contenido/README.md)** - Aplicación completa que integra generación de texto (TinyLlama), audio (Bark) e imágenes (Tiny-SD) mediante API REST y interfaz web
+
+**Tecnologías principales:** TensorFlow, Keras, Transformers, Diffusers, FastAPI, Streamlit, Google Translate API, Bark, TinyLlama, Tiny-SD
+
+[Ver portafolio completo →](IA-generativa/README.md)
+
+---
+
 ## 📚 Stack Tecnológico Completo
 
 ### Lenguajes de Programación
@@ -331,6 +358,15 @@ Colección de 5 proyectos enfocados en procesamiento del lenguaje natural, inclu
 - **YOLOv5** - Detección de objetos
 - **OpenCV** - Procesamiento de imágenes y visión por computadora
 
+### IA Generativa
+- **TensorFlow/Keras** - Implementación de GANs y DCGANs
+- **Transformers (Hugging Face)** - Modelos generativos de texto
+- **Diffusers** - Modelos de generación de imágenes
+- **Bark** - Síntesis de voz y generación de audio
+- **FastAPI** - APIs REST para modelos generativos
+- **Streamlit** - Interfaces web para IA generativa
+- **Google Translate API** - Traducción automática
+
 ### Herramientas de Desarrollo
 - **Jupyter Notebook** - Entorno interactivo de desarrollo y análisis
 - **Git** - Control de versiones
@@ -352,6 +388,7 @@ Cada sección tiene su propio README con información detallada:
 - **[Deep Learning](Deep%20learning/README.md)** - 4 proyectos de deep learning y redes neuronales
 - **[Machine Learning - No Supervisado](Machine%20Learning%20-%20No%20supervisado/README.md)** - 7 proyectos de aprendizaje no supervisado
 - **[Natural Language Processing (NLP)](NLP/README.md)** - 5 proyectos de procesamiento del lenguaje natural
+- **[IA Generativa](IA-generativa/README.md)** - 3 proyectos de inteligencia artificial generativa
 
 ### Nivel 3: Proyectos Individuales
 Cada proyecto incluye:
