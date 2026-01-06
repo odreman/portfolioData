@@ -6,11 +6,11 @@ Bienvenido a mi portafolio personal de proyectos de ciencia de datos y programac
 
 Este portafolio reúne proyectos prácticos que abordan problemas reales utilizando técnicas de ciencia de datos. Cada proyecto incluye análisis detallados, visualizaciones informativas, código bien documentado y explicaciones de los resultados obtenidos.
 
-**Total de proyectos:** 32 proyectos organizados en 8 categorías principales
+**Total de proyectos:** 44 proyectos organizados en 10 categorías principales
 
 ## 📁 Estructura del Portafolio
 
-Este portafolio está organizado en ocho secciones principales, cada una enfocada en diferentes aspectos de la ciencia de datos:
+Este portafolio está organizado en diez secciones principales, cada una enfocada en diferentes aspectos de la ciencia de datos:
 
 ---
 
@@ -214,6 +214,59 @@ Colección de 4 proyectos enfocados en deep learning y redes neuronales profunda
 
 ---
 
+### 🔍 [Machine Learning - No Supervisado](Machine%20Learning%20-%20No%20supervisado/README.md)
+
+Colección de 7 proyectos enfocados en técnicas de aprendizaje no supervisado, incluyendo clustering, reducción de dimensionalidad, análisis factorial, detección de anomalías, reglas de asociación y análisis de correspondencias. Estos proyectos demuestran competencia en técnicas avanzadas de machine learning no supervisado aplicadas a problemas del mundo real.
+
+**Habilidades demostradas:**
+- Clustering (K-Means, K-Means++, jerárquico aglomerativo, DBSCAN)
+- Reducción de dimensionalidad (PCA, análisis factorial)
+- Detección de anomalías (Isolation Forest)
+- Reglas de asociación (Apriori, market basket analysis)
+- Análisis de correspondencias
+- Análisis de datos categóricos y funcionales
+
+**Proyectos incluidos:**
+1. **Clusterización de Cereales con K-Means** - Agrupación de cereales según información nutricional para identificar grupos de consumidores objetivo
+2. **Reducción de Dimensionalidad con PCA: Análisis de Coches** - Aplicación de PCA para analizar características de coches y separar todoterrenos de turismos
+3. **Análisis Factorial: Records de Atletismo Femenino** - Identificación de factores latentes en pruebas atléticas y posicionamiento de países
+4. **Detección de Anomalías: Estrategias de Inversión** - Uso de Isolation Forest para identificar techos y suelos en precios de acciones del IBEX35 y validar estrategias de inversión
+5. **Clusterización Avanzada: Análisis de Datos Censales** - Aplicación de múltiples algoritmos de clustering (K-Means++, jerárquico, DBSCAN) para identificar áreas para expansión de tiendas
+6. **Reglas de Asociación: Market Basket Analysis** - Análisis de cesta de la compra con algoritmo Apriori para identificar productos que se compran juntos
+7. **Análisis de Correspondencias: Percepción de Marcas de Café** - Estudio de relaciones entre marcas de café refrigerado y atributos percibidos por consumidores
+
+**Tecnologías principales:** Scikit-learn (KMeans, PCA, IsolationForest, AgglomerativeClustering, DBSCAN), MLxtend (Apriori, association_rules), Factor Analyzer, Pandas, NumPy, Matplotlib, Seaborn, Folium
+
+[Ver portafolio completo →](Machine%20Learning%20-%20No%20supervisado/README.md)
+
+---
+
+### 💬 [Natural Language Processing (NLP)](NLP/README.md)
+
+Colección de 5 proyectos enfocados en procesamiento del lenguaje natural, incluyendo transcripción de audio, chatbots, preprocesamiento de texto, clasificación multi-etiqueta y word embeddings. Estos proyectos demuestran competencia en técnicas avanzadas de NLP aplicadas a problemas del mundo real.
+
+**Habilidades demostradas:**
+- Transcripción de audio con Whisper
+- Clasificación zero-shot con modelos Transformer
+- Construcción de chatbots con APIs
+- Preprocesamiento de texto para NLP
+- Clasificación multi-etiqueta
+- Word embeddings y similitud semántica
+- Construcción de interfaces web interactivas
+
+**Proyectos incluidos:**
+1. **Transcripción de Audio con Whisper y Clasificación Zero-Shot** - Aplicaciones web con modelos Transformer para transcripción de audio y clasificación de texto zero-shot
+2. **Chatbot de Atención al Cliente con Gradio y OpenAI** - Chatbot completo para tienda de electrónica con gestión de historial y cálculo de costes
+3. **Preprocesamiento de Texto para Clasificación Multi-Etiqueta** - Preprocesamiento de texto en inglés y construcción de features para posts de StackOverflow
+4. **Clasificación Multi-Etiqueta de Posts de StackOverflow** - Entrenamiento y evaluación de modelos para predecir múltiples etiquetas en posts
+5. **Word Embeddings para Encontrar Preguntas Similares** - Sistema de búsqueda de preguntas similares utilizando word embeddings y sentence embeddings
+
+**Tecnologías principales:** Transformers (Hugging Face), OpenAI API, Whisper, Gradio, Gensim, SentenceTransformers, NLTK, SpaCy, Scikit-learn, Pandas, NumPy
+
+[Ver portafolio completo →](NLP/README.md)
+
+---
+
 ## 📚 Stack Tecnológico Completo
 
 ### Lenguajes de Programación
@@ -256,6 +309,21 @@ Colección de 4 proyectos enfocados en deep learning y redes neuronales profunda
 - **Pydantic** - Validación de datos
 - **XGBoost** - Gradient boosting avanzado
 
+### Machine Learning - No Supervisado
+- **Scikit-learn** - KMeans, PCA, IsolationForest, AgglomerativeClustering, DBSCAN
+- **MLxtend** - Apriori, association_rules para reglas de asociación
+- **Factor Analyzer** - Análisis factorial
+
+### Natural Language Processing
+- **Transformers (Hugging Face)** - Modelos pre-entrenados de NLP
+- **OpenAI API** - Modelos de lenguaje para chatbots
+- **Whisper / Faster-Whisper** - Transcripción de audio
+- **Gensim** - Word embeddings y topic modeling
+- **SentenceTransformers** - Sentence embeddings
+- **Gradio** - Interfaces web interactivas para NLP
+- **NLTK** - Procesamiento básico de texto
+- **SpaCy** - Procesamiento avanzado de lenguaje natural
+
 ### Deep Learning
 - **TensorFlow** - Framework de deep learning
 - **Keras** - API de alto nivel para redes neuronales
@@ -282,6 +350,8 @@ Cada sección tiene su propio README con información detallada:
 - **[Predictive Analytics](Predictive%20Analytics/README.md)** - 4 proyectos de análisis predictivo
 - **[Machine Learning](Machine%20learning/README.md)** - 2 proyectos de clasificación y machine learning
 - **[Deep Learning](Deep%20learning/README.md)** - 4 proyectos de deep learning y redes neuronales
+- **[Machine Learning - No Supervisado](Machine%20Learning%20-%20No%20supervisado/README.md)** - 7 proyectos de aprendizaje no supervisado
+- **[Natural Language Processing (NLP)](NLP/README.md)** - 5 proyectos de procesamiento del lenguaje natural
 
 ### Nivel 3: Proyectos Individuales
 Cada proyecto incluye:
@@ -352,6 +422,30 @@ Cada proyecto incluye:
 - Optimización de hiperparámetros
 - Feature engineering avanzado
 - Evaluación y comparación de modelos
+
+### Machine Learning - No Supervisado
+- Clustering (K-Means, K-Means++, jerárquico aglomerativo, DBSCAN)
+- Reducción de dimensionalidad (PCA, análisis factorial)
+- Detección de anomalías (Isolation Forest)
+- Reglas de asociación (Apriori, market basket analysis)
+- Análisis de correspondencias
+- Análisis de datos categóricos y funcionales
+- Selección del número óptimo de clusters
+- Profiling de clusters
+
+### Natural Language Processing
+- Transcripción de audio con Whisper
+- Clasificación zero-shot con modelos Transformer
+- Construcción de chatbots con APIs
+- Gestión de historial de conversación
+- Chain of Thought (CoT) y prompt engineering
+- Preprocesamiento de texto (stop words, normalización, tokenización)
+- Clasificación multi-etiqueta de texto
+- Word embeddings (Word2Vec, FastText)
+- Sentence embeddings
+- Similitud semántica
+- Information retrieval y ranking
+- Construcción de interfaces web interactivas
 
 ### Deep Learning
 - Redes neuronales profundas (DNN)
