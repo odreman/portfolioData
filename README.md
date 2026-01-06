@@ -6,11 +6,11 @@ Bienvenido a mi portafolio personal de proyectos de ciencia de datos y programac
 
 Este portafolio reúne proyectos prácticos que abordan problemas reales utilizando técnicas de ciencia de datos. Cada proyecto incluye análisis detallados, visualizaciones informativas, código bien documentado y explicaciones de los resultados obtenidos.
 
-**Total de proyectos:** 47 proyectos organizados en 11 categorías principales
+**Total de proyectos:** 53 proyectos organizados en 12 categorías principales
 
 ## 📁 Estructura del Portafolio
 
-Este portafolio está organizado en once secciones principales, cada una enfocada en diferentes aspectos de la ciencia de datos:
+Este portafolio está organizado en doce secciones principales, cada una enfocada en diferentes aspectos de la ciencia de datos:
 
 ---
 
@@ -294,6 +294,38 @@ Colección de 3 proyectos enfocados en inteligencia artificial generativa, inclu
 
 ---
 
+### 👁️ [Computer Vision](computer-vision/README.md)
+
+Colección de 6 proyectos enfocados en visión por computadora, cubriendo desde el procesamiento básico de imágenes hasta técnicas avanzadas de detección, reconocimiento y medición. Estos proyectos demuestran competencia en técnicas de procesamiento de imágenes, detección de objetos, visión estéreo y reconocimiento óptico de caracteres.
+
+**Habilidades demostradas:**
+- Procesamiento de imágenes en condiciones de baja iluminación
+- Detección y conteo de objetos en secuencias de video
+- Reconocimiento óptico de caracteres (OCR) para matrículas
+- Técnicas de pegado de imágenes y creación de panoramas
+- Visión estéreo para medición de distancias en profundidad
+- Detección de objetos en tiempo real utilizando deep learning
+
+**Proyectos incluidos:**
+1. **[Procesamiento de Imágenes Nocturnas](computer-vision/procesamiento_imagenes_nocturnas/README.md)** - Técnicas de mejora y preprocesamiento de imágenes capturadas en condiciones de baja iluminación
+   - [Procesamiento de Imágenes Nocturnas](computer-vision/procesamiento_imagenes_nocturnas/procesamiento_imagenes_nocturnas.ipynb)
+2. **[Detección y Conteo de Vehículos](computer-vision/deteccion_conteo_vehiculos/README.md)** - Implementación de un algoritmo para detectar y contar vehículos en secuencias de video de carreteras
+   - [Detección y Conteo de Vehículos](computer-vision/deteccion_conteo_vehiculos/deteccion_conteo_vehiculos.ipynb)
+3. **[Reconocimiento de Matrículas](computer-vision/reconocimiento_matriculas/README.md)** - Sistema de reconocimiento óptico de caracteres (OCR) para identificar y leer matrículas de vehículos
+   - [Reconocimiento de Matrículas](computer-vision/reconocimiento_matriculas/reconocimiento_matriculas.ipynb)
+4. **[Pegado de Imágenes y Panorama](computer-vision/pegado_imagenes_panorama/README.md)** - Técnicas de alineación y fusión de múltiples imágenes para crear panoramas
+   - [Pegado de Imágenes y Panorama](computer-vision/pegado_imagenes_panorama/pegado_imagenes_panorama.ipynb)
+5. **[Visión Estéreo para Medición de Distancias](computer-vision/vision_estereo_medicion_distancias/README.md)** - Sistema de visión estéreo para calcular distancias en profundidad
+   - [Visión Estéreo para Medición de Distancias](computer-vision/vision_estereo_medicion_distancias/vision_estereo_medicion_distancias.ipynb)
+6. **[Detección de Objetos en Tiempo Real](computer-vision/deteccion_objetos_tiempo_real/README.md)** - Aplicación de modelos de deep learning para detectar objetos en tiempo real desde una fuente de video
+   - [Detección de Objetos en Tiempo Real](computer-vision/deteccion_objetos_tiempo_real/deteccion_objetos_tiempo_real.ipynb)
+
+**Tecnologías principales:** scikit-image, OpenCV, NumPy, Matplotlib, TensorFlow, Keras, Técnicas de procesamiento de imágenes, Detección de características (ORB, SIFT), Visión estéreo y calibración de cámaras
+
+[Ver portafolio completo →](computer-vision/README.md)
+
+---
+
 ## 📚 Stack Tecnológico Completo
 
 ### Lenguajes de Programación
@@ -389,6 +421,7 @@ Cada sección tiene su propio README con información detallada:
 - **[Machine Learning - No Supervisado](Machine%20Learning%20-%20No%20supervisado/README.md)** - 7 proyectos de aprendizaje no supervisado
 - **[Natural Language Processing (NLP)](NLP/README.md)** - 5 proyectos de procesamiento del lenguaje natural
 - **[IA Generativa](IA-generativa/README.md)** - 3 proyectos de inteligencia artificial generativa
+- **[Computer Vision](computer-vision/README.md)** - 6 proyectos de visión por computadora
 
 ### Nivel 3: Proyectos Individuales
 Cada proyecto incluye:
